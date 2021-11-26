@@ -1,5 +1,6 @@
 import { UI } from '@hyext/hy-ui'
 import React, { Component } from 'react'
+import { Example } from '../src/common'
 import './app.hycss'
 
 const { View, Text } = UI
@@ -7,7 +8,9 @@ const { View, Text } = UI
 class App extends Component {
   render () {
     return (
-      <View className="container"><Text>hello world</Text></View>
+      <View className="container">
+        <Example />
+      </View>
     )
   }
 }
