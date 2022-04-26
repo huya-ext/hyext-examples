@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+.section {
+  margin: 10px auto;
+}
+.button {
+  height: 100px;
+  width: 400px;
+  background-color: rgb(253, 69, 69);
+  border-radius: 50px;
+}
+.input {
+  width: 600px;
+  height: 80px;
+  border: gray solid 3px;
+  border-radius: 20px;
+}
+.text {
+  font-size: 30px;
+}
+
+.data {
+  font-size: 50px;
+  margin: 150px 0 0 20px;
+}

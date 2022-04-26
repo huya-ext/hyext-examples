@@ -1,0 +1,22 @@
+.container{
+  flex: 1;
+  align-items: center;
+  margin-top: 200px;
+}
+.section {
+  margin: 20px auto;
+}
+.button {
+  height: 100px;
+  background-color: rgb(253, 69, 69);
+  border-radius: 50px;
+}
+.input {
+  width: 600px;
+  height: 80px;
+  border: gray solid 3px;
+  border-radius: 20px; 
+}
+.text{
+  margin-top: 10px;
+}
