@@ -1,8 +1,0 @@
-{
-  "recommendations": [
-    "hy-ext.hyextvscode",
-    "stylelint.vscode-stylelint",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
-  ]
-}
