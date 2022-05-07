@@ -1,0 +1,28 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.section {
+  padding: 10px;
+  width: 700px;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.button-wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  height: 85px;
+  width: 320px;
+  background-color: #ff9600;
+  border-radius: 10px;
+}
