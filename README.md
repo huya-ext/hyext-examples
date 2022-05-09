@@ -32,6 +32,8 @@
 
 - [本地小程序控制](https://github.com/huya-ext/hyext-examples/tree/master/examples/local-control)：介绍本地小程序控制，控制浮窗是否加载、面板是否可见以及面板入口是否可见。
 
+- 小程序邀请：针对小程序平台上部分主播对抗类的小程序，平台提供了一套SDK接口，让开发者可方便的实现主播与主播之间的邀请功能。详情请移步至[小程序邀请（场景）](https://dev.huya.com/docs/miniapp/dev/scenario/invite/)。
+
 
 ### 宿主相关
 
