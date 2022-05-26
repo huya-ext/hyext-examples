@@ -95,47 +95,6 @@ export const Example = () => {
         showErrorTip();
       });
   };
-  // 获取周贡榜信息
-  const handleGetWeekRank = () => {
-    hyExt.context
-      .getWeekRank()
-      .then((rankItemList) => {
-        setResult(
-          `context.getWeekRank调用成功：${JSON.stringify(rankItemList)}`
-        );
-        showSuccessTip();
-      })
-      .catch((err) => {
-        setResult(`context.getWeekRank调用失败：${err.msg}`);
-        showErrorTip();
-      });
-  };
-  // 获取粉丝榜信息
-  const handleGetFansRank = () => {
-    hyExt.context
-      .getFansRank()
-      .then((rankInfo) => {
-        setResult(`context.getFansRank调用成功：${JSON.stringify(rankInfo)}`);
-        showSuccessTip();
-      })
-      .catch((err) => {
-        setResult(`context.getFansRank调用失败：${err.msg}`);
-        showErrorTip();
-      });
-  };
-  // 获取贵宾数据信息
-  const handleGetVip = () => {
-    hyExt.context
-      .getVip()
-      .then((vipItem) => {
-        setResult(`context.getVip调用成功：${JSON.stringify(vipItem)}`);
-        showSuccessTip();
-      })
-      .catch((err) => {
-        setResult(`context.getVip调用失败：${err.msg}`);
-        showErrorTip();
-      });
-  };
 
   return (
     <View className="container">
@@ -174,24 +133,6 @@ export const Example = () => {
           <Text className="title">context.getStreamerInfo</Text>
           <Button className="button" onPress={() => handleGetStreamerInfo()}>
             获取主播信息
-          </Button>
-        </View>
-        <View className="section">
-          <Text className="title">context.getWeekRank</Text>
-          <Button className="button" onPress={() => handleGetWeekRank()}>
-            获取周贡榜信息
-          </Button>
-        </View>
-        <View className="section">
-          <Text className="title">context.getFansRank</Text>
-          <Button className="button" onPress={() => handleGetFansRank()}>
-            获取粉丝榜信息
-          </Button>
-        </View>
-        <View className="section">
-          <Text className="title">context.getVip</Text>
-          <Button className="button" onPress={() => handleGetVip()}>
-            获取贵宾数据信息
           </Button>
         </View>
 
