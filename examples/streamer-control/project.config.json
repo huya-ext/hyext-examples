@@ -34,6 +34,11 @@
             "entry": "index_streamer.js",
             "extType": "pc_anchor_panel",
             "platform": "pc"
+          },
+          {
+            "entry": "index_popup.js",
+            "extType": "web_popup",
+            "platform": "web"
           }
         ]
       },
