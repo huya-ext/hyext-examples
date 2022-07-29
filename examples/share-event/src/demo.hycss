@@ -1,0 +1,9 @@
+.result {
+  border: 10px;
+  width: 700px;
+
+}
+
+.button {
+  width: 700px;
+}
