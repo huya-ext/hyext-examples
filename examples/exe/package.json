@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@hyext-beyond/core": "2.1.1",
-    "@hyext/hy-ui": "1.4.6"
+    "@hyext/hy-ui": "1.4.6",
+    "events": "^3.3.0"
   }
 }
