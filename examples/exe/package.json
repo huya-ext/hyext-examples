@@ -1,0 +1,23 @@
+{
+  "name": "exe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx hyext start",
+    "release": "npx hyext release",
+    "config": "npx hyext config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hyext/builder-beyond": "^3.8.11"
+  },
+  "dependencies": {
+    "@hyext-beyond/core": "2.1.1",
+    "@hyext/hy-ui": "1.4.6",
+    "events": "^3.3.0"
+  }
+}
