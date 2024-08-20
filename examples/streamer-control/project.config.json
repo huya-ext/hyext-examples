@@ -17,13 +17,7 @@
       "webTitle": "虎牙小程序",
       "designWidth": 750,
       "buildConfig": {
-        "RN": [
-          {
-            "entry": "index.js",
-            "extType": "app_panel",
-            "platform": "app"
-          }
-        ],
+        "RN": [],
         "H5": [
           {
             "entry": "index.js",
@@ -36,8 +30,8 @@
             "platform": "pc"
           },
           {
-            "entry": "index_popup.js",
-            "extType": "web_popup",
+            "entry": "index.js",
+            "extType": "app_panel_h5",
             "platform": "web"
           }
         ]
